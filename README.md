@@ -14,7 +14,7 @@ brew install cmake
 brew install glew
 
 
-Parking Lot
+# Parking Lot
 
 This section describes features that could be implemented but due to time restrictions they were not.
 
