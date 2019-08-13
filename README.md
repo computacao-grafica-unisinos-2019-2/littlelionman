@@ -11,9 +11,20 @@ Unix-like systems store the libs and C files for include under:
 * /usr/local/lib
 * /usr/local/include
 
+To run this project you need the following libraries / includes installed on the above mentioned folders:
 
-brew install cmake
-brew install glew
+* CMake
+* OpenGL
+* GLW
+* GLM
+* GLEW
+* GLFW3
+* SOIL
+
+For most of them, you can use homebrew. 
+
+//brew install cmake
+//brew install glew
 
 
 # Parking Lot
