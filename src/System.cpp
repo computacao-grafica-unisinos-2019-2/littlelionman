@@ -75,7 +75,7 @@ void System::Run()
 {
 
 	coreShader.Use();
-	coreShader.LoadTexture( "resources/textures/brickTexture.jpg", "texture1", "brickTexture" );
+	coreShader.LoadTexture( "resources/textures/woodTexture.jpg", "texture1", "woodTexture" );
 
 	GLfloat vertices[] =
 	{
@@ -127,7 +127,7 @@ void System::Run()
 
 		coreShader.Use();
 
-		coreShader.UseTexture( "brickTexture" );
+		coreShader.UseTexture( "woodTexture" );
 
 		glBindVertexArray( VAO );
 		glDrawArrays( GL_TRIANGLES, 0, 6 );
